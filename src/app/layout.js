@@ -1,15 +1,17 @@
-import localFont from "next/font/local";
+import Navbar from "@/components/shared/Navbar";
 import "./globals.css";
+import { Poppins, Nunito } from "next/font/google";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
+const poppins = Poppins({
+  weight: "400",
+  subsets: ["latin"],
+  display: "swap",
 });
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
+
+const nunito_sans = Nunito({
+  weight: "800",
+  subsets: ["latin"],
+  display: "swap",
 });
 
 export const metadata = {
@@ -20,9 +22,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" data-theme="light">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={nunito_sans.className}>
+        <Navbar />
         {children}
       </body>
     </html>

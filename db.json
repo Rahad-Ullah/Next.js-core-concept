@@ -1,0 +1,52 @@
+{
+  "shoes": [
+    {
+      "id": 1,
+      "name": "Air Max 270",
+      "description": "A stylish sneaker with a large air unit for comfort.",
+      "brand": "Nike",
+      "price": 150.0,
+      "size": 10
+    },
+    {
+      "id": 2,
+      "name": "UltraBoost",
+      "description": "High-performance running shoes with a responsive boost midsole.",
+      "brand": "Adidas",
+      "price": 180.0,
+      "size": 9
+    },
+    {
+      "id": 3,
+      "name": "Classic Slip-On",
+      "description": "Iconic slip-on shoes with a canvas upper and rubber sole.",
+      "brand": "Vans",
+      "price": 65.0,
+      "size": 11
+    },
+    {
+      "id": 4,
+      "name": "Gel-Kayano 27",
+      "description": "Supportive running shoes designed for long-distance comfort.",
+      "brand": "ASICS",
+      "price": 160.0,
+      "size": 10.5
+    },
+    {
+      "id": 5,
+      "name": "Converse Chuck Taylor All Star",
+      "description": "Timeless canvas high-top sneakers with a rubber sole.",
+      "brand": "Converse",
+      "price": 55.0,
+      "size": 8
+    },
+    {
+      "id": 6,
+      "name": "Boosted Runner",
+      "description": "Lightweight and breathable running shoes for an effortless run.",
+      "brand": "Puma",
+      "price": 120.0,
+      "size": 9.5
+    }
+  ]
+}
