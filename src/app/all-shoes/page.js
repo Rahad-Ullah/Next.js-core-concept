@@ -1,14 +1,10 @@
 import Link from "next/link";
 
-const HomePage = async () => {
+const AllShoes = async () => {
   const res = await fetch("http://localhost:5000/shoes", {
-    next: {
-      revalidate: 5,
-    },
+    cache: "no-store",
   });
   const shoes = await res.json();
-
-  // throw new Error("error from home page");
 
   return (
     <div className="text-center max-w-screen-lg mx-auto py-16">
@@ -35,11 +31,11 @@ const HomePage = async () => {
           </div>
         ))}
       </div>
-      <Link href="/all-shoes" className="btn btn-primary my-8">
+      {/* <Link href="/all-shoes" className="btn btn-primary my-8">
         See More
-      </Link>
+      </Link> */}
     </div>
   );
 };
 
-export default HomePage;
+export default AllShoes;

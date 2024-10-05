@@ -5,7 +5,7 @@
       "name": "Air Max 270",
       "description": "A stylish sneaker with a large air unit for comfort.",
       "brand": "Nike",
-      "price": 150.0,
+      "price": 120.0,
       "size": 10
     },
     {
@@ -13,7 +13,7 @@
       "name": "UltraBoost",
       "description": "High-performance running shoes with a responsive boost midsole.",
       "brand": "Adidas",
-      "price": 180.0,
+      "price": 190.0,
       "size": 9
     },
     {
